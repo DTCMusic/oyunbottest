@@ -15,10 +15,10 @@ LOGGER = logging.getLogger(__name__)
 
 
 # Hesap
-API_ID = "16102648"
-API_HASH = "378a73e340eb634cf67c8c42bafa9f37"
-TOKEN = "5515833309:AAEqq4CIwdmZUxT_Ll5OyHdTyTTy52KhyRM" 
-USERNAME = "5249642922"
+API_ID = "24548143"
+API_HASH = "6cba049c135a0393615878ea1e3c9443"
+TOKEN = "6691661083:AAEpixZeV4ZN1l1MYoGL8JrQCELVnB1j1-0" 
+USERNAME = "7423909421"
 
 
 
@@ -26,9 +26,9 @@ USERNAME = "5249642922"
 # BOT CLIENTİ
 bot = Client(
     ":memory:",
-    API_ID, "16102648"
-    API_HASH, "378a73e340eb634cf67c8c42bafa9f37"
-    bot_token=TOKEN, "5515833309:AAEqq4CIwdmZUxT_Ll5OyHdTyTTy52KhyRM" 
+    API_ID, "24548143"
+    API_HASH, "6cba049c135a0393615878ea1e3c9443"
+    bot_token=TOKEN, "6691661083:AAEpixZeV4ZN1l1MYoGL8JrQCELVnB1j1-0" 
     plugins=dict(root="kelime_bot/plugins/"),
     workers=16
     )
@@ -47,5 +47,5 @@ rating = {}
 
 # !!!!!!!!!!!!!! DEĞİŞTİR KESİNLİKLE !!!!!!!!!!!!!!!!
 #      SAHİBİN USER ID'Sİ
-OWNER_ID = 5249642922
+OWNER_ID = 7423909421
 
