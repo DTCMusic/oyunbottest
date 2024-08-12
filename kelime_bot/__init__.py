@@ -26,8 +26,8 @@ USERNAME = "7423909421"
 # BOT CLIENTİ
 bot = Client(
     ":memory:",
-    API_ID, "24548143"
-    API_HASH, "6cba049c135a0393615878ea1e3c9443"
+    API_ID= "24548143"
+    API_HASH= "6cba049c135a0393615878ea1e3c9443"
     bot_token=TOKEN, "6691661083:AAEpixZeV4ZN1l1MYoGL8JrQCELVnB1j1-0" 
     plugins=dict(root="kelime_bot/plugins/"),
     workers=16
